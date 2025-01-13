@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../assets/css/output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2a0b4f88de.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+<body class="font-sans">
+    <!-- Empty header that will be filled by headerLoader.js -->
+    <header></header>
+
+    <section class="container mx-auto">
+        <div class="flex flex-col items-center tracking-tighter text-[75px] font-bold mt-24 leading-none">
+            <p class="self-center">Stay Focused While</p>
+            <p>Studying Online</p>
+        </div>
+        <div class="flex flex-col items-center tracking-tight text-[20px] font-normal mt-10 leading-tight text-gray-500">
+            <p class="self-center">TarkizZ helps you stay on track with task management and focus</p>
+            <p>mode. Boost you productivity and acheive your study goals</p>
+        </div>
+        <div class="flex flex-col items-center tracking-tight text-[17px] font-normal mt-10 leading-tight text-gray-500">
+            <a href="#" class="bg-black text-stone-50 rounded-lg px-10 py-4 -mt-2 hover:bg-gray-800 font-semibold tracking-tight active:text-[15px]">Get Started</a>
+        </div>
+        <div class="grid place-items-center mt-10">
+            <div class="w-full max-w-[800px] h-[400px] bg-gray-200 rounded-lg shadow-2xl flex items-center justify-center">
+                <i class="fas fa-image text-4xl text-gray-400"></i>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container mx-auto px-4 py-24 space-y-8">
+        <div class="flex justify-center tracking-tight text-[17px] font-normal mt-40 text-gray-500">
+            <p class="font-bold text-black text-[60px] tracking-tighter">Features that Help You Focus</p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+            <div class="flex flex-col items-center space-y-4 p-6 bg-gray-100 rounded-lg">
+                <i class="fa-solid fa-list-check text-[45px] mb-4"></i>
+                <p class="text-2xl font-semibold mb-2">Task Manager</p>
+                <p class="text-gray-500 text-center text-lg">Add, edit, and track your tasks. Stay organized and never miss a deadline</p>
+            </div>
+            <div class="flex flex-col items-center space-y-4 p-6 bg-gray-100 rounded-lg">
+                <i class="fa-solid fa-bullseye text-[45px] mb-4"></i>
+                <p class="text-2xl font-semibold mb-2">Focus Mode</p>
+                <p class="text-gray-500 text-center text-lg">Stay focused on your work without distractions.<br>Block notifications and stay in the zone.</p>
+            </div>
+            <div class="flex flex-col items-center space-y-4 p-6 bg-gray-100 rounded-lg">
+                <i class="fa-solid fa-clock text-[45px] mb-4"></i>
+                <p class="text-2xl font-semibold mb-2">Prograss Tracking</p>
+                <p class="text-gray-500 text-center text-lg">See how much you've accomplished. Track your <br> study time and productivity</p>
+            </div>
+        </div>
+    </section>
+    <section class="grid grid-rows-1 mx-auto text-center bg-gray-100">
+        <div class="p-20 space-y-7">
+            <h2 class="font-bold text-[60px] tracking-tighter">What Our users Say</h2>
+        
+            <div class="space-y-7" id="fisrtReview">
+                <div>
+                    <p class=" text-2xl font-normal tracking-tight">"TarkizZ has helped me stay on track like never befor! The focus <br> mode is a game changer for my study sessions."</p>
+                </div>
+                <div>
+                    <p class="font-semibold">Sarah Johnson</p>
+                    <p class="font-normal text-gray-500">Computer Science Student</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-circle text-[10px]"></i>
+                    <i class="fa-regular fa-circle text-[10px]"></i>
+                    <i class="fa-regular fa-circle text-[10px]"></i>
+                </div>    
+            </div>
+            <div class="space-y-7 hidden" id="secondReview">
+                <div>
+                    <p class=" text-2xl font-normal tracking-tight">"The progress tracking feature keeps me motivated. Ican acctually see <br> how much I'm accomplishing!"</p>
+                </div>
+                <div>
+                    <p class="font-semibold">Emily Rodriguez</p>
+                    <p class="font-normal text-gray-500">Law Student</p>
+                </div>
+                <div>
+                    <i class="fa-regular fa-circle text-[10px]"></i>
+                    <i class="fa-solid fa-circle text-[10px]"></i>
+                    <i class="fa-regular fa-circle text-[10px]"></i>
+                </div>    
+            </div>
+            <div class="space-y-7 hidden" id="thirdReview">
+                <div>
+                    <p class=" text-2xl font-normal tracking-tight">"I love how simple and effective Tarkizz is! It's become an essential<br> part of my daily study routine."</p>
+                </div>
+                <div>
+                    <p class="font-semibold">Micheal Chen</p>
+                    <p class="font-normal text-gray-500">Medical Student</p>
+                </div>
+                <div>
+                    <i class="fa-regular fa-circle text-[10px]"></i>
+                    <i class="fa-regular fa-circle text-[10px]"></i>
+                    <i class="fa-solid fa-circle text-[10px]"></i>
+                </div>    
+            </div>
+    </section>
+
+   <footer></footer>
+
+    <script src="../scripts/caroussel.js"></script>
+    <script src="../scripts/headerLoader.js"></script>
+    <script src="../scripts/loadFooter.js"></script>
+</body>
+</html>
